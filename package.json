@@ -6,13 +6,22 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "amqp": "^0.2.6",
+    "amqplib": "^0.5.1",
+    "bitsyntax": "~0.0.4",
+    "bluebird": "^3.4.6",
     "body-parser": "~1.16.0",
+    "buffer-more-ints": "0.0.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "express": "~4.14.1",
     "jade": "~1.11.0",
+    "mongodb": "^2.2.24",
     "mongoose": "^4.8.5",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.2"
+    "node-uuid": "^1.4.7",
+    "readable-stream": "1.x >=1.1.9",
+    "serve-favicon": "~2.3.2",
+    "uuid": "^3.0.1"
   }
 }
